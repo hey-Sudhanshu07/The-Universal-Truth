@@ -1,0 +1,86 @@
+.bgimage {
+    background-image: url('https://science.nasa.gov/wp-content/uploads/2023/06/pia11709-pluto-heart-1920x640-1.jpg?w=1920'); /* Replace with your image URL */
+    height: 400px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+  }
+  
+  .text-overlay {
+    position: absolute;
+    top: 50%;
+    left: 35%;
+    transform: translate(-50%, -50%);
+    color: white;
+    white-space: nowrap;
+    text-align: center;
+  }
+  
+  .text-overlay h1 {
+    font-size: 4em !important; /* Ensure the size is applied */
+  }
+  
+  @media (max-width: 480px) {
+    .text-overlay h1 {
+      font-size: 2em !important; /* Ensure the size is applied */
+    }
+    .text-overlay h3 {
+      font-size: 1.2em !important; /* Ensure the size is applied */
+    }
+    i {
+      font-size: smaller;
+  }
+  .d-flex{overflow-x: auto;}
+  .descg { width: 70%; /* Make description box smaller */ 
+    text-align: center; 
+    margin: 10px auto; /* Center the box */ 
+    border-top: 1px solid #ccc; /* Add border below image */ 
+    padding: 2px 10px; /* Adjust padding to remove extra white space */ 
+    box-sizing: border-box; /* Ensure padding is included in width */
+  }
+  #gif{ zoom: 60%;}
+.planet{ zoom: 20%;}
+#makemake{zoom: 20%;}
+ 
+}
+
+  /* Bootstrap Card Styles */
+.d-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: nowrap;
+  overflow-x: auto; /* Enable horizontal scrolling if needed */
+}
+
+@media (min-width: 481px){
+  #gif {zoom: 70%;  }
+  .planet{zoom: 30%; }
+  #makemake{zoom: 30%;}
+}
+
+.card {
+  flex: 1;
+  width: 20%; /* Adjust width for all cards */
+  min-width: 160px; /* Ensure a minimum width for smaller screens */
+  margin: 10px; /* Margin for spacing */
+  flex-shrink: 0; /* Prevent shrinking on smaller screens */
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+.card:hover { transform: translateY(-10px); /* Translate on hover */ }
+.card img {
+  width: 100%;
+  height: 250px; /* Adjust height for a better aspect ratio */
+  object-fit: cover;
+}
+
+.card-body {
+  padding: 15px;
+}
+
+.card-title {
+  font-size: 1.2em;
+  margin-bottom: 0;
+}
+  

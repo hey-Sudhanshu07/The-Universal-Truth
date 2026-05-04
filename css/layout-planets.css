@@ -1,0 +1,127 @@
+.bgimage {
+    background-image: url('https://www.opticalmechanics.com/wp-content/uploads/2023/02/Depositphotos_39381011_XL-4096x2223.jpg'); /* Replace with your image URL */
+    height: 400px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    
+  }
+  
+  .text-overlay {
+    position: absolute;
+    top: 70%;
+    left: 55%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-weight: bolder;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.5);
+    
+  }
+  
+  .text-overlay h1 {
+    font-size: 7em !important; /* Ensure the size is applied */
+
+  }
+  @media (max-width: 480px) {
+    .text-overlay h1 {
+      font-size: 4em !important; /* Ensure the size is applied */
+    }
+    i {
+      font-size: smaller;
+    }
+    .d-flex {
+      overflow-x: auto;
+    }
+    .gif-right {
+      display: block;
+      text-align: center;
+      margin: 0 auto;
+    }
+  
+    .small, .large {
+      width: 40%; /* Ensure image takes full width */
+      display: block;
+      margin: 0 auto; /* Center the image */
+      
+    }
+    .row {
+      padding-right: 30%; /* Make space for the image */ 
+      text-align: left;
+      display: grid;
+      grid-template-columns: 1fr 1fr; /* Split into two columns */
+      gap: 2px; /* Add some spacing between columns */
+    }
+  
+    .row dt {
+      grid-column: 1; /* Place dt in first column */
+      text-align: right; /* Align text to the right */
+    }
+  
+    .row dd {
+      grid-column: 2; /* Place dd in second column */
+      text-align: left; /* Align text to the left */
+      margin: 0; /* Remove default margin */
+    }
+
+   .descg { width: 70%; /* Make description box smaller */ 
+            text-align: center; 
+            margin: 10px auto; /* Center the box */ 
+            border-top: 1px solid #ccc; /* Add border below image */ 
+            padding: 2px 10px; /* Adjust padding to remove extra white space */ 
+            box-sizing: border-box; /* Ensure padding is included in width */
+          }
+}
+  
+  
+  /* Bootstrap Card Styles */
+  .d-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap;
+    overflow-x: auto; /* Enable horizontal scrolling if needed */
+  }
+  .small {
+    zoom: 100%;
+  }
+  .large {
+    zoom: 40%;
+  }
+  #Uranus {
+    zoom: 60%;
+  }
+  #Saturn{
+    zoom: 65%;
+    rotate: 26deg;
+}
+
+  .pic-container {
+    overflow: auto;
+  }
+  
+.card {
+  flex: 1;
+  width: 20%; /* Adjust width for all cards */
+  min-width: 160px; /* Ensure a minimum width for smaller screens */
+  margin: 10px; /* Margin for spacing */
+  flex-shrink: 0; /* Prevent shrinking on smaller screens */
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+.card:hover { transform: translateY(-10px); /* Translate on hover */ }
+.card img {
+  width: 100%;
+  height: 250px; /* Adjust height for a better aspect ratio */
+  object-fit: cover;
+}
+
+.card-body {
+  padding: 15px;
+}
+
+.card-title {
+  font-size: 1.2em;
+  margin-bottom: 0;
+}
+  
