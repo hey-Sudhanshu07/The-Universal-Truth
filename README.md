@@ -3,7 +3,8 @@
   <img src="https://img.shields.io/badge/Tech-HTML5%20|%20CSS3%20|%20Bootstrap-blue?style=for-the-badge" />
   
   <h1 align="center">🌌 The Universal Truth</h1>
-  
+  <img width="150" height="150" alt="logo_" src="https://github.com/user-attachments/assets/7870bbd2-d577-4c8a-929a-2b9956e2ef3c" />
+
   <p align="center">
     <strong>A Comprehensive Multi-page Responsive Website exploring the wonders of the Cosmos.</strong>
     <br />
