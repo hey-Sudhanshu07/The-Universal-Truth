@@ -15,7 +15,7 @@
 <hr />
 
 ### 📖 Project Overview
-"The Universal Truth" is a static, fully responsive multipage website designed to provide users with an immersive experience regarding space exploration and astronomical facts. Built with a focus on clean UI and seamless navigation, it ensures a consistent experience across all device sizes.
+The Universal Truth" is a static, fully responsive multipage website designed to provide users with an immersive experience regarding space exploration and astronomical facts. Built with a focus on clean UI and seamless navigation, it ensures a consistent experience across all device sizes.
 
 ### 🚀 Key Features
 - **Responsive Design:** Optimized for desktops, tablets, and mobile devices using Bootstrap.
